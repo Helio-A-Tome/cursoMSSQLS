@@ -1,0 +1,8 @@
+-- ORDER BY--select * from  person.person order by firstname
+--SUM- select sum(emailpromotion) from person.person 
+--MAX--select max(emailpromotion) from person.person 
+--MIN -- select min(lastname ) from person.person
+-- BETWEEN --select name as nome ,listprice as lista from production.product where listprice between 500 and 1000 order by lista asc
+--IN-- SELECT * FROM PRODUCTION.PRODUCT WHERE COLOR IN ('BLACK','SILVER') ORDER BY NAME
+--COUNT e LIKE-- select distinct count(name) from production.product where name like 'ch%' => o coringa"%" pode ir antes ou depois 
+--GROUP + top--select top 20 name  from production.product where listprice > 1500 group by name order by name

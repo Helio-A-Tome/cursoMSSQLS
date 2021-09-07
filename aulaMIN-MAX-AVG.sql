@@ -1,0 +1,12 @@
+--aula MIn-Max-AVG-SUM
+--select   * from sales.SalesOrderDetail order by SalesOrderID
+--COMANDO SUM
+--select top 10 sum(linetotal)  from sales.salesorderdetail 
+--COLOCAR UM APELIDO OU 'ALIAS ' EM UMA COLUNA
+--select top 10 sum (linetotal)  as "soma" from sales.salesorderdetail 
+--COMANDO MIN
+--select top 10 min(linetotal) as "minimo" from sales.salesorderdetail
+--COMANDO Max
+--select top 10 max(linetotal) as "maximo" from sales.salesorderdetail
+--COMANDO AVG
+--select top 10 avg(linetotal) as "media" from sales.salesorderdetail
