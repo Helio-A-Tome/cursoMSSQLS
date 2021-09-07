@@ -1,0 +1,25 @@
+--select  name, ProductNumber,color from production.product where color 
+--in ('black','silver') order by color desc
+--select * from person.person where businessEntityID in (2,7,13,18,123)
+--select * from person.person where FirstName like '%ovi%'
+--select * from person.person where LASTName like '%to'
+--select * from person.person where FirstName
+--like '%to' and lastName like 'a%' order by firstname
+--select * from person.person where FirstName between 'alberto' and 'humberto'
+--select * from person.person where firstname like '%tori%'
+--select count (*) from production.Product 
+--where ListPrice < 1700
+--select sum(listprice) from production.product where ListPrice > 1500
+
+--select count(firstName)  from person.person where firstname like 'p%'
+--comentario de uma linha
+-- select distinct  BusinessEntityID, FirstName,LastName  from person.person 
+
+--select * from person.person
+--select  count(distinct city) from person.Address
+--select distinct(city) from person.Address
+--select count(*) from production.Product where  color= 'red' and  listprice between  500 and 2000
+ --select sum(ListPrice) from production.Product where  color= 'red' and  listprice between  500 and 2000
+ -- select name, ListPrice from production.Product where  color= 'red' and  listprice between  500 and 2000
+ --select * from production.product where name like '%road%'
+ --select count(distinct name) from production.product where name like '%road%'

@@ -1,0 +1,1 @@
+--chave primaria/chave estrangeira

@@ -1,0 +1,11 @@
+--select count(listprice) from production.product where listprice > 1500
+--select count(lastname) from person.person where lastname like '%p'
+--select count(distinct city) from person.Address
+--select distinct (city) from person.address
+--select name,ListPrice from production.product  where listprice > 500 and listprice < 1000
+--acima solução mais complicada-Simplificada abaixo- procurar na cor 'red'
+--select name, listprice from production.product where color ='red' and listprice between 500 and 1000
+--Simplificada abaixo- procurar na cor 'red' usando com count
+--select count(listprice) from production.product where color='red' and listprice between 500 and 1000
+--Contar quantos produtos existem com o "road " em seu nome
+--select count(name) from production.product where name like '%road%'
